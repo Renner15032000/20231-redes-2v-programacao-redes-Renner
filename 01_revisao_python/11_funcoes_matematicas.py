@@ -1,0 +1,21 @@
+#Funções matemáticas
+
+#o Python tem módulos built-in com importantes funções matematicas
+import math
+print(math.sin(2*math.pi/180)) # trigonometria
+
+
+math.sqrt(144)          # raiz quadrada
+
+print(math.floor(2.543)) 
+print(math.trunc(2.543)) #arredonda ou trunca
+print(round(2.543))
+
+
+
+
+#utilizando métodos aleatórios
+import random
+random.random()    #gera um número randomico entre 0 e 1
+escolha = random.choice(["azul","amarelo","preto","branco"]) 
+print(escolha)
