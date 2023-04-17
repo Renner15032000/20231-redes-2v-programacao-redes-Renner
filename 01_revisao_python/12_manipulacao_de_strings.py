@@ -43,6 +43,8 @@ print(len(s))
 #\t	Horizontal tab
 #\v	Vertical tab
 
+
+
 #Raw Strings (cruas, sem tratamento)
 
 #Pode ser mais conveniente, quando trabalhando com escape, usar um formato de strings do tipo raw.
@@ -68,3 +70,16 @@ s = ''' Sempre olhe
 ...    pelo lado
 ... bom da vida '''
 print(s)
+print(len(s))
+
+
+# Operações básicas com strings
+s = 'casa'
+print(len(s))
+
+#Concatenação e repetição
+s = 'agua' + 'salgada' 
+print(s)
+
+s = 'abc' 
+print(4*s)
