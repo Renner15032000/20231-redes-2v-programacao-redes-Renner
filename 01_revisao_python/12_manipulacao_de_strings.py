@@ -42,3 +42,29 @@ print(len(s))
 #\r	Carriage return
 #\t	Horizontal tab
 #\v	Vertical tab
+
+#Raw Strings (cruas, sem tratamento)
+
+#Pode ser mais conveniente, quando trabalhando com escape, usar um formato de strings do tipo raw.
+
+#Raw string é criado com o caractere (r) antes da string
+
+#Ex:  Caso precisemos criar uma string para um caminho
+s = 'c:\novo\texto.txt'
+print(s)
+
+ 
+w = 'c:\\novo\\texto.txt'  
+print(w)
+z = r'c:\novo\texto.txt' 
+print(z)
+
+
+#Cota tripla
+
+#Por conveniência, podemos criar string que ocupam mais de uma linha usando as cotas triplas
+
+s = ''' Sempre olhe
+...    pelo lado
+... bom da vida '''
+print(s)
