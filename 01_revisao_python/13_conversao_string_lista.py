@@ -19,3 +19,7 @@ print(L)
 w = ''.join(L) #Conversão de uma lista em string
 print(w)
 
+#Com o uso do método split é possível usar padrões de separação de strings para transformá-la em uma lista
+s = 'joao,paulo,pedro,marco'
+L = s.split(',')
+print(L)
