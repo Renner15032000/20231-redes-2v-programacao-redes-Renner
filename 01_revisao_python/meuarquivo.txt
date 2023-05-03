@@ -1,0 +1,3 @@
+Olá Mundo!, arquivo de texto.
+arquivo de texto.
+Tchau mundo!!!
